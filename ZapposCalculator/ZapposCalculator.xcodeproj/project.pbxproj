@@ -1,0 +1,426 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F6DFDA9C1C6A8C6700C039A0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6DFDA9B1C6A8C6700C039A0 /* AppDelegate.swift */; };
+		F6DFDA9E1C6A8C6700C039A0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6DFDA9D1C6A8C6700C039A0 /* ViewController.swift */; };
+		F6DFDAA11C6A8C6700C039A0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F6DFDA9F1C6A8C6700C039A0 /* Main.storyboard */; };
+		F6DFDAA31C6A8C6700C039A0 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F6DFDAA21C6A8C6700C039A0 /* Images.xcassets */; };
+		F6DFDAA61C6A8C6700C039A0 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = F6DFDAA41C6A8C6700C039A0 /* LaunchScreen.xib */; };
+		F6DFDAB21C6A8C6700C039A0 /* ZapposCalculatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6DFDAB11C6A8C6700C039A0 /* ZapposCalculatorTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F6DFDAAC1C6A8C6700C039A0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F6DFDA8E1C6A8C6700C039A0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F6DFDA951C6A8C6700C039A0;
+			remoteInfo = ZapposCalculator;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F6DFDA961C6A8C6700C039A0 /* ZapposCalculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZapposCalculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F6DFDA9A1C6A8C6700C039A0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F6DFDA9B1C6A8C6700C039A0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F6DFDA9D1C6A8C6700C039A0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F6DFDAA01C6A8C6700C039A0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F6DFDAA21C6A8C6700C039A0 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		F6DFDAA51C6A8C6700C039A0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		F6DFDAAB1C6A8C6700C039A0 /* ZapposCalculatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZapposCalculatorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F6DFDAB01C6A8C6700C039A0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F6DFDAB11C6A8C6700C039A0 /* ZapposCalculatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZapposCalculatorTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F6DFDA931C6A8C6700C039A0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F6DFDAA81C6A8C6700C039A0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F6DFDA8D1C6A8C6700C039A0 = {
+			isa = PBXGroup;
+			children = (
+				F6DFDA981C6A8C6700C039A0 /* ZapposCalculator */,
+				F6DFDAAE1C6A8C6700C039A0 /* ZapposCalculatorTests */,
+				F6DFDA971C6A8C6700C039A0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F6DFDA971C6A8C6700C039A0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F6DFDA961C6A8C6700C039A0 /* ZapposCalculator.app */,
+				F6DFDAAB1C6A8C6700C039A0 /* ZapposCalculatorTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F6DFDA981C6A8C6700C039A0 /* ZapposCalculator */ = {
+			isa = PBXGroup;
+			children = (
+				F6DFDA9B1C6A8C6700C039A0 /* AppDelegate.swift */,
+				F6DFDA9D1C6A8C6700C039A0 /* ViewController.swift */,
+				F6DFDA9F1C6A8C6700C039A0 /* Main.storyboard */,
+				F6DFDAA21C6A8C6700C039A0 /* Images.xcassets */,
+				F6DFDAA41C6A8C6700C039A0 /* LaunchScreen.xib */,
+				F6DFDA991C6A8C6700C039A0 /* Supporting Files */,
+			);
+			path = ZapposCalculator;
+			sourceTree = "<group>";
+		};
+		F6DFDA991C6A8C6700C039A0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F6DFDA9A1C6A8C6700C039A0 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F6DFDAAE1C6A8C6700C039A0 /* ZapposCalculatorTests */ = {
+			isa = PBXGroup;
+			children = (
+				F6DFDAB11C6A8C6700C039A0 /* ZapposCalculatorTests.swift */,
+				F6DFDAAF1C6A8C6700C039A0 /* Supporting Files */,
+			);
+			path = ZapposCalculatorTests;
+			sourceTree = "<group>";
+		};
+		F6DFDAAF1C6A8C6700C039A0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F6DFDAB01C6A8C6700C039A0 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F6DFDA951C6A8C6700C039A0 /* ZapposCalculator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F6DFDAB51C6A8C6700C039A0 /* Build configuration list for PBXNativeTarget "ZapposCalculator" */;
+			buildPhases = (
+				F6DFDA921C6A8C6700C039A0 /* Sources */,
+				F6DFDA931C6A8C6700C039A0 /* Frameworks */,
+				F6DFDA941C6A8C6700C039A0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZapposCalculator;
+			productName = ZapposCalculator;
+			productReference = F6DFDA961C6A8C6700C039A0 /* ZapposCalculator.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F6DFDAAA1C6A8C6700C039A0 /* ZapposCalculatorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F6DFDAB81C6A8C6700C039A0 /* Build configuration list for PBXNativeTarget "ZapposCalculatorTests" */;
+			buildPhases = (
+				F6DFDAA71C6A8C6700C039A0 /* Sources */,
+				F6DFDAA81C6A8C6700C039A0 /* Frameworks */,
+				F6DFDAA91C6A8C6700C039A0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F6DFDAAD1C6A8C6700C039A0 /* PBXTargetDependency */,
+			);
+			name = ZapposCalculatorTests;
+			productName = ZapposCalculatorTests;
+			productReference = F6DFDAAB1C6A8C6700C039A0 /* ZapposCalculatorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F6DFDA8E1C6A8C6700C039A0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = "Ushang Amit Thakker";
+				TargetAttributes = {
+					F6DFDA951C6A8C6700C039A0 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					F6DFDAAA1C6A8C6700C039A0 = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = F6DFDA951C6A8C6700C039A0;
+					};
+				};
+			};
+			buildConfigurationList = F6DFDA911C6A8C6700C039A0 /* Build configuration list for PBXProject "ZapposCalculator" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F6DFDA8D1C6A8C6700C039A0;
+			productRefGroup = F6DFDA971C6A8C6700C039A0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F6DFDA951C6A8C6700C039A0 /* ZapposCalculator */,
+				F6DFDAAA1C6A8C6700C039A0 /* ZapposCalculatorTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F6DFDA941C6A8C6700C039A0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F6DFDAA11C6A8C6700C039A0 /* Main.storyboard in Resources */,
+				F6DFDAA61C6A8C6700C039A0 /* LaunchScreen.xib in Resources */,
+				F6DFDAA31C6A8C6700C039A0 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F6DFDAA91C6A8C6700C039A0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F6DFDA921C6A8C6700C039A0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F6DFDA9E1C6A8C6700C039A0 /* ViewController.swift in Sources */,
+				F6DFDA9C1C6A8C6700C039A0 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F6DFDAA71C6A8C6700C039A0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F6DFDAB21C6A8C6700C039A0 /* ZapposCalculatorTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F6DFDAAD1C6A8C6700C039A0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F6DFDA951C6A8C6700C039A0 /* ZapposCalculator */;
+			targetProxy = F6DFDAAC1C6A8C6700C039A0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F6DFDA9F1C6A8C6700C039A0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F6DFDAA01C6A8C6700C039A0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F6DFDAA41C6A8C6700C039A0 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F6DFDAA51C6A8C6700C039A0 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F6DFDAB31C6A8C6700C039A0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F6DFDAB41C6A8C6700C039A0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F6DFDAB61C6A8C6700C039A0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ZapposCalculator/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F6DFDAB71C6A8C6700C039A0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ZapposCalculator/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		F6DFDAB91C6A8C6700C039A0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ZapposCalculatorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZapposCalculator.app/ZapposCalculator";
+			};
+			name = Debug;
+		};
+		F6DFDABA1C6A8C6700C039A0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ZapposCalculatorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZapposCalculator.app/ZapposCalculator";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F6DFDA911C6A8C6700C039A0 /* Build configuration list for PBXProject "ZapposCalculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F6DFDAB31C6A8C6700C039A0 /* Debug */,
+				F6DFDAB41C6A8C6700C039A0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F6DFDAB51C6A8C6700C039A0 /* Build configuration list for PBXNativeTarget "ZapposCalculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F6DFDAB61C6A8C6700C039A0 /* Debug */,
+				F6DFDAB71C6A8C6700C039A0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F6DFDAB81C6A8C6700C039A0 /* Build configuration list for PBXNativeTarget "ZapposCalculatorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F6DFDAB91C6A8C6700C039A0 /* Debug */,
+				F6DFDABA1C6A8C6700C039A0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F6DFDA8E1C6A8C6700C039A0 /* Project object */;
+}
